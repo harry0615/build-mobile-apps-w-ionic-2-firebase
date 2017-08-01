@@ -26,10 +26,15 @@ import { OauthCordova } from 'ng2-cordova-oauth/platform/cordova';
 import { Oauth } from 'ng2-cordova-oauth/oauth';
 
 export const firebaseConfig = {
-  apiKey: 'AIzaSyA6yagMqIiiRvPRLct-cH1RhnVtBCEL650',
-  authDomain: 'hacker-news-ionic2.firebaseapp.com',
-  databaseURL: 'https://hacker-news-ionic2.firebaseio.com',
-  storageBucket: 'hacker-news-ionic2.appspot.com',
+  apiKey: "AIzaSyAD3spyaqkOBeACMLSx955lh_fT0MyB-Tw",
+  authDomain: "urine-test.firebaseapp.com",
+  databaseURL: "https://urine-test.firebaseio.com",
+  storageBucket: "urine-test.appspot.com",
+
+  //apiKey: 'AIzaSyA6yagMqIiiRvPRLct-cH1RhnVtBCEL650',
+  //authDomain: 'hacker-news-ionic2.firebaseapp.com',
+  //databaseURL: 'https://hacker-news-ionic2.firebaseio.com',
+  //storageBucket: 'hacker-news-ionic2.appspot.com',
 };
 
 const cloudSettings: CloudSettings = {

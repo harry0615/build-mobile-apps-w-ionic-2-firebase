@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import * as firebase from 'firebase';
 import { AngularFire, FirebaseListObservable, FirebaseObjectObservable } from "angularfire2";
 
-const HACKER_NEWS_API_URL = 'https://hacker-news.firebaseio.com';
+const HACKER_NEWS_API_URL = 'https://urine-test.firebaseio.com';
 const config = {
   databaseURL: HACKER_NEWS_API_URL,
 };
@@ -16,7 +16,8 @@ export class HackerNewsService {
   }
 
   topStories(): FirebaseListObservable<any> {
-    const ref = this.database.ref('/v0/topstories');
+    //const ref = this.database.ref('/v0/topstories');
+    const ref = '9127232';
     return this.af.database.list(ref);
   }
 
